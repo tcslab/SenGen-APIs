@@ -14,5 +14,4 @@ $subject = "SYNDESI Connection failed";
 				$header = implode("\r\n", $headers);
 				
 				mail($to, $subject, $message, $header);
-			
 ?>
