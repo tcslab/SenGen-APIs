@@ -36,6 +36,10 @@ if (isset($_GET["node_name"]) && isset($_GET["resource_name"]) && isset($_GET["v
 				echo $sql;
 			}
 		}
+<<<<<<< HEAD
+		echo $sql;
+=======
+>>>>>>> 27d9b6c62a9e744b3ec8b82881bc1984279cfbee
 }
 else
 {
