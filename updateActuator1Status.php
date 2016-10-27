@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 include 'db_resource_directory.php';
 include 'json.php';
@@ -72,4 +71,3 @@ else
 
 json_send($Json);
 ?>
->>>>>>> 27d9b6c62a9e744b3ec8b82881bc1984279cfbee
