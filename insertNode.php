@@ -25,6 +25,7 @@ if (isset($_GET["name"]) && isset($_GET["pos_x"]) && isset($_GET["pos_y"]) && is
 			echo $sql;
 		}
 	}
+	echo $sql;
 }
 else
 {
