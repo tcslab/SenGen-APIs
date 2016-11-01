@@ -29,7 +29,7 @@ if (isset($allNodesA))
 				$jsonreply->pos_y=$row['pos_y'];
 				$jsonreply->pos_z=$row['pos_z'];
 				$jsonreply->actuator1_state=$row['Actuator1_status'];
-				$jsonreply->actuator1_state=$row['Actuator2_status'];
+				$jsonreply->actuator2_state=$row['Actuator2_status'];
 				$allNodes[] = $jsonreply;
 			}
 if (!empty($allNodes))
